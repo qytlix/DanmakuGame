@@ -19,7 +19,7 @@
 #include <time.h>
 #include <random>
 #include "./include/Danmaku.h"
-#define TESTOPEN // for test Button
+// #define TESTOPEN // for test Button
 using namespace std;
 
 Box selfBox = {200,200,5};
