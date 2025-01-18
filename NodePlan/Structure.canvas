@@ -3,24 +3,24 @@
 		{"id":"9b7d1b50faaec641","type":"group","x":-712,"y":-500,"width":2041,"height":886,"label":"物品"},
 		{"id":"28c07cbb82b8b611","type":"text","text":"# Imaginary","x":300,"y":-280,"width":250,"height":60},
 		{"id":"7f2accf4f40b6f6c","type":"text","text":"# Real\n","x":-80,"y":-280,"width":242,"height":60},
-		{"id":"7e9bcb7796204d97","type":"file","file":"NodePlan/Player.md","x":66,"y":300,"width":173,"height":66},
 		{"id":"952e769459ae0ec2","type":"file","file":"NodePlan/Node.md","x":-480,"y":-300,"width":160,"height":80},
-		{"id":"2b36745265d3bd07","type":"text","text":"是否可以操控","x":109,"y":141,"width":250,"height":60},
-		{"id":"4bd169f773a47690","type":"file","file":"NodePlan/Enemy.md","x":425,"y":300,"width":193,"height":66,"color":"3"},
 		{"id":"3e3b6ba690a04b0a","type":"file","file":"NodePlan/Object.md","x":124,"y":-480,"width":236,"height":80},
+		{"id":"d2ca96520003e6eb","type":"text","text":"# Massage","x":550,"y":-1280,"width":250,"height":60},
+		{"id":"feb9bf4f00b624d0","type":"text","text":"# Background","x":1000,"y":-84,"width":309,"height":69},
+		{"id":"749e6dc060c0e80a","type":"text","text":"p，点，1up，b，etc.","x":-660,"y":187,"width":250,"height":60},
+		{"id":"7e9bcb7796204d97","type":"file","file":"NodePlan/Player.md","x":66,"y":300,"width":173,"height":66},
+		{"id":"2b36745265d3bd07","type":"text","text":"是否可以操控","x":109,"y":141,"width":250,"height":60},
 		{"id":"6214fbca7c0a1b04","type":"file","file":"NodePlan/DialogBox.md","x":360,"y":-80,"width":240,"height":60},
 		{"id":"f1db487f7f6e62bd","type":"text","text":"# Panel","x":660,"y":-80,"width":250,"height":60},
 		{"id":"ff2c23b626c8e12e","type":"text","text":"etc.","x":735,"y":40,"width":100,"height":50},
 		{"id":"187fce58f77c76d6","type":"file","file":"NodePlan/Character.md","x":109,"y":80,"width":251,"height":50},
-		{"id":"d2ca96520003e6eb","type":"text","text":"# Massage","x":550,"y":-1280,"width":250,"height":60},
 		{"id":"1127fee0f3eb2c2d","type":"text","text":"# State","x":550,"y":-1040,"width":250,"height":60},
 		{"id":"bd4c64c61681147c","type":"text","text":"时间，键鼠等等","x":550,"y":-900,"width":250,"height":60},
 		{"id":"81192acdbc7931e6","type":"text","text":"# Mashine","x":60,"y":-870,"width":240,"height":50},
-		{"id":"feb9bf4f00b624d0","type":"text","text":"# Background","x":1000,"y":-84,"width":309,"height":69},
-		{"id":"c78db8d28f35b696","type":"file","file":"NodePlan/Item.md","x":-442,"y":32,"width":146,"height":58,"color":"3"},
-		{"id":"749e6dc060c0e80a","type":"text","text":"p，点，1up，b，etc.","x":-660,"y":187,"width":250,"height":60},
-		{"id":"63ae5d6d29ae687a","type":"file","file":"NodePlan/Bullet.md","x":-320,"y":188,"width":184,"height":59,"color":"3"},
-		{"id":"fc750b488e506b94","type":"text","text":"是否有碰撞箱","x":162,"y":-400,"width":176,"height":59}
+		{"id":"fc750b488e506b94","type":"text","text":"是否有碰撞箱","x":162,"y":-400,"width":176,"height":59},
+		{"id":"4bd169f773a47690","type":"file","file":"NodePlan/Enemy.md","x":425,"y":300,"width":193,"height":66,"color":"3"},
+		{"id":"c78db8d28f35b696","type":"file","file":"NodePlan/Item.md","x":-556,"y":51,"width":146,"height":58,"color":"3"},
+		{"id":"63ae5d6d29ae687a","type":"file","file":"NodePlan/Bullet.md","x":-264,"y":51,"width":184,"height":59,"color":"3"}
 	],
 	"edges":[
 		{"id":"67a5d6578abe0e11","fromNode":"187fce58f77c76d6","fromSide":"bottom","toNode":"7e9bcb7796204d97","toSide":"top"},
@@ -44,7 +44,7 @@
 		{"id":"a1b0a66c0f243f9c","fromNode":"c78db8d28f35b696","fromSide":"right","toNode":"7e9bcb7796204d97","toSide":"left","color":"3"},
 		{"id":"667eab40a296a2b6","fromNode":"952e769459ae0ec2","fromSide":"bottom","toNode":"63ae5d6d29ae687a","toSide":"top","color":"1","label":"生产"},
 		{"id":"503d0ced269ae0b8","fromNode":"7f2accf4f40b6f6c","fromSide":"bottom","toNode":"c78db8d28f35b696","toSide":"top"},
-		{"id":"f189a629afccf606","fromNode":"c78db8d28f35b696","fromSide":"bottom","toNode":"63ae5d6d29ae687a","toSide":"top"},
-		{"id":"04433816ae25c5a2","fromNode":"c78db8d28f35b696","fromSide":"bottom","toNode":"749e6dc060c0e80a","toSide":"top"}
+		{"id":"04433816ae25c5a2","fromNode":"c78db8d28f35b696","fromSide":"bottom","toNode":"749e6dc060c0e80a","toSide":"top"},
+		{"id":"e8618d3fd46db2f4","fromNode":"7f2accf4f40b6f6c","fromSide":"bottom","toNode":"63ae5d6d29ae687a","toSide":"top"}
 	]
 }
